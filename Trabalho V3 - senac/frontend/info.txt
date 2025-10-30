@@ -1,0 +1,3 @@
+API de negocios: porta 4000
+BFF: porta 3001
+BDD: json local persistente
