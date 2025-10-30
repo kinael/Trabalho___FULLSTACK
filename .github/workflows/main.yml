@@ -7,8 +7,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout do código
+      - name: Baixar o código
         uses: actions/checkout@v4
-      - name: Exibir mensagem
-        run: echo "GitHub Actions funcionando!"
+
+      - name: Mostrar mensagem de sucesso
+        run: echo "🎉 GitHub Actions está funcionando!"
